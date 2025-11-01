@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ellty-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm run migrate && npm start
+    envVars:
+      DATABASE_URL: file:/data/dev.db
+      JWT_SECRET: supersecret1234567890
+    disks:
+      - name: data
+        mountPath: /data
+        sizeGB: 1

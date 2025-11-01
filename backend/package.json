@@ -8,6 +8,8 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc -p .",
     "start": "node dist/src/server.js",
+    "postinstall": "prisma generate",
+    "migrate": "prisma migrate deploy",
     "prisma:migrate": "prisma migrate dev",
     "prisma:generate": "prisma generate",
     "test": "cross-env DOTENV_CONFIG_PATH=.env.test jest --runInBand",
