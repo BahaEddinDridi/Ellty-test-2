@@ -13,4 +13,5 @@ dev.db
 
 # env
 backend/.env
+backend/.env.test
 frontend/.env
