@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "cross-env PORT=$PORT vite preview --host"
+    "preview": "PORT=$PORT vite preview --host"
   },
   "dependencies": {
     "axios": "^1.13.1",
