@@ -1,20 +1,11 @@
 module.exports = {
-  preset: "ts-jest/presets/default-esm",
+  preset: "ts-jest",                   
   testEnvironment: "node",
   testMatch: ["**/tests/**/*.test.ts"],
-  transform: {
-    "^.+\\.ts$": ["ts-jest", { tsconfig: "tsconfig.json", useESM: true }]
-  },
-  extensionsToTreatAsEsm: [".ts"],
-  globals: {
-    "ts-jest": {
-      tsconfig: "tsconfig.json",
-      useESM: true
-    }
-  },
-  setupFiles: ["dotenv/config"],
+  setupFiles: ["<rootDir>/tests/setupEnv.cjs"],   
+  globalSetup: "<rootDir>/tests/globalSetup.cjs", 
   collectCoverage: true,
   collectCoverageFrom: ["src/**/*.{ts,js}"],
   coverageDirectory: "coverage",
-  globalSetup: "<rootDir>/tests/globalSetup.mjs",
+  clearMocks: true,
 };

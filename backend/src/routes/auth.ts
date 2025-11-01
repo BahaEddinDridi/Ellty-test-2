@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import * as bcrypt from 'bcrypt';
-import * as jwt from 'jsonwebtoken';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 import prisma from '../prisma';
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 dotenv.config();
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret';

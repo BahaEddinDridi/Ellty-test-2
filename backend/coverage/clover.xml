@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762011110455" clover="3.2.0">
-  <project timestamp="1762011110455" name="All files">
-    <metrics statements="104" coveredstatements="79" conditionals="45" coveredconditionals="21" methods="9" coveredmethods="6" elements="158" coveredelements="106" complexity="0" loc="104" ncloc="104" packages="4" files="7" classes="7"/>
+<coverage generated="1762013724281" clover="3.2.0">
+  <project timestamp="1762013724281" name="All files">
+    <metrics statements="105" coveredstatements="79" conditionals="45" coveredconditionals="21" methods="9" coveredmethods="6" elements="159" coveredelements="106" complexity="0" loc="105" ncloc="105" packages="4" files="7" classes="7"/>
     <package name="src">
-      <metrics statements="18" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="19" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="app.ts" path="C:\Users\bahae\OneDrive\Bureau\Ellty\ellty-test-2\backend\src\app.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="prisma.ts" path="C:\Users\bahae\OneDrive\Bureau\Ellty\ellty-test-2\backend\src\prisma.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -26,7 +26,8 @@
         <line num="5" count="2" type="stmt"/>
       </file>
       <file name="server.ts" path="C:\Users\bahae\OneDrive\Bureau\Ellty\ellty-test-2\backend\src\server.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
         <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
