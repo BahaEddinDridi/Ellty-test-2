@@ -9,7 +9,7 @@ This is the backend for the **Number Communication App**, where users can start 
 - **Node.js** + **Express**
 - **TypeScript**
 - **Prisma ORM**
-- **SQLite** (or PostgreSQL)
+- **SQLite**
 - **JWT Authentication**
 
 ---
