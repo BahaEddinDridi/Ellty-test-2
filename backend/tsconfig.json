@@ -10,7 +10,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es2019",
-    "types": ["node"],
+    //"types": ["node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
